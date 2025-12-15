@@ -1,1 +1,94 @@
 # Dreamdel-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamdel | Fashion & Artificial Jewellery</title>
+  <meta name="description" content="Dreamdel - Men, Women, Kids Clothing & Artificial Jewellery. Order easily on WhatsApp." />
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#222}
+    header{background:#111;color:#fff;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}
+    header h1{margin:0;font-size:22px;letter-spacing:1px}
+    nav a{color:#fff;margin:0 10px;text-decoration:none;font-size:14px}
+    .hero{padding:40px 20px;text-align:center;background:linear-gradient(135deg,#f5f5f5,#ffffff)}
+    .hero h2{font-size:28px;margin-bottom:10px}
+    .hero p{max-width:720px;margin:0 auto 20px;line-height:1.6}
+    .btn{display:inline-block;background:#25D366;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:600}
+    .section{padding:30px 20px;max-width:1100px;margin:auto}
+    .section h3{text-align:center;margin-bottom:20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{border:1px solid #eee;border-radius:8px;padding:16px;text-align:center}
+    .card h4{margin:10px 0 6px}
+    footer{background:#111;color:#ddd;text-align:center;padding:18px 10px;font-size:14px}
+    .lang{font-size:13px;color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dreamdel</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#kids">Kids</a>
+      <a href="#jewellery">Jewellery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Dreamdel – Fashion & Artificial Jewellery</h2>
+    <p class="lang">Hindi + English</p>
+    <p>Men, Women aur Kids ke trendy kapde aur stylish artificial jewellery.
+      <br/>Easy order on WhatsApp – quality products, best prices.</p>
+    <a class="btn" href="https://wa.me/917210405337" target="_blank">Order on WhatsApp</a>
+  </section>
+
+  <section id="men" class="section">
+    <h3>Men Clothing</h3>
+    <div class="grid">
+      <div class="card"><h4>T-Shirts / Shirts</h4><p>Comfortable & trendy styles</p></div>
+      <div class="card"><h4>Hoodies / Sweatshirts</h4><p>All season wear</p></div>
+      <div class="card"><h4>Casual Wear</h4><p>Daily & party wear</p></div>
+    </div>
+  </section>
+
+  <section id="women" class="section">
+    <h3>Women Clothing</h3>
+    <div class="grid">
+      <div class="card"><h4>Kurtis / Sets</h4><p>Elegant & comfortable</p></div>
+      <div class="card"><h4>Dresses</h4><p>Trending designs</p></div>
+      <div class="card"><h4>Top Wear</h4><p>Modern fashion</p></div>
+    </div>
+  </section>
+
+  <section id="kids" class="section">
+    <h3>Kids Clothing</h3>
+    <div class="grid">
+      <div class="card"><h4>Boys Wear</h4><p>Soft & durable</p></div>
+      <div class="card"><h4>Girls Wear</h4><p>Cute & colorful</p></div>
+      <div class="card"><h4>Daily Wear</h4><p>Comfort first</p></div>
+    </div>
+  </section>
+
+  <section id="jewellery" class="section">
+    <h3>Artificial Jewellery</h3>
+    <div class="grid">
+      <div class="card"><h4>Earrings</h4><p>Stylish & lightweight</p></div>
+      <div class="card"><h4>Necklaces</h4><p>Party & festive</p></div>
+      <div class="card"><h4>Combo Sets</h4><p>Best value</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact & Order</h3>
+    <p style="text-align:center">WhatsApp: <strong>7210405337</strong></p>
+    <p style="text-align:center"><a class="btn" href="https://wa.me/917210405337" target="_blank">Chat on WhatsApp</a></p>
+  </section>
+
+  <footer>
+    © 2025 Dreamdel | All Rights Reserved
+  </footer>
+</body>
+</html>
